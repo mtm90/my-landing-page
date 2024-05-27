@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <>
       <aside className="sidebar">
-        <img className="quizPic" src="../src/assets/quiz.png" alt="quizPic" />
+        <img className="quizPic" src="/assets/quiz.png" alt="quizPic" />
         <div className="side1">
           <div className="quiz">
             <h1>My Quiz!</h1>

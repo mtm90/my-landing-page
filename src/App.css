@@ -1,0 +1,35 @@
+* {
+  color: black;
+  font-family: monospace;
+
+}
+
+header {
+  background-color: #9D96B8;
+  margin: 1%;
+  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
+}
+
+footer {
+  background-color: #9D96B8;
+  margin: 1%;
+  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
+
+
+}
+
+.sidebar {
+  background-color: #9A7197;
+  margin: 1%;
+  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
+
+
+}
+
+.main {
+  background-color: #886176;
+  margin: 1%;
+  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
+
+
+}

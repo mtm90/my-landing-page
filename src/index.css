@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #afd2e9;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  font-size: x-large;
+}
+header {
+  text-align: center;
+  padding: 1rem;
+  border: 5px solid black;
+}
+footer {
+  padding: 0.1rem;
+  text-align: center;
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 40vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: x-large;
+  align-items: center;
+  border: 5px solid black;
+}
+p {
+  font-size: xx-large;
+}
+h1 {
+  margin: 0% 1% 1%;
+}
+
+main > h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+.quizPic {
+  width: 75%;
+  margin-bottom: 10%;
+}
+.profilePic {
+  width: 75%;
+  height: 40%;
+  margin: 10%;
+}
+
+.main {
+  padding: 2rem;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+
+}
+.social {
+  height: 4rem;
+  width: 4rem;
+}
+.links {
+  margin-right: 3%;
+}
+.sLinks {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 50px;
+  align-items: center;
+}
+.madeWith {
+  display: flex;
+}
+.rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+span {
+  color: #efa2c6;
+}
+.survey {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: #9d96b8;
+  margin: 2%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+li {
+  font-size: smaller;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+h3 {
+  margin-left: 1%;
+  margin-right: 1%;
+  align-content: center;
+}
+.btn {
+  border: 1px solid black;
+  border-radius: 100px;
+  font-size: 70%;
+  background-color: #9D96B8;
+}
+.btn:hover {
+  background-color: #9d96b8c0;
+
+}
+.txtarea {
+  margin-top: 1%;
+}
+
+@media (max-width: 480px) {
+  * {
+    font-size: large;
+  }
+  .main-content {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: medium;
+  }
+  .sidebar {
+    width: inherit;
+    padding: 0;
+    height: 27vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-start;
+  }
+  
+  img {
+    width: 25%;
+    height: 100%;
+    margin-right: 10%;
+  }
+  .social {
+    width: 1.5rem;
+    margin: 2%;
+    height: 1.5rem;
+  }
+  .sLinks {
+    padding: 20px;
+  }
+  span {
+    font-size: 100%;
+  }
+  .quizPic {
+    margin: 5%;
+    width: 35%;
+    height: 70%;
+  }
+
+  .quiz {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .surveyText {
+    margin: 0% 1% 1%;
+
+  }
+
+}
+@media (min-width: 481px) and (max-width: 1079px) {
+ 
+ 
+  .main-content {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+ 
+  .sidebar {
+    width: inherit;
+    padding: 0;
+    height: 35vh;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .main {
+    height: 100vh;
+    font-size: medium;
+  }
+
+  img {
+    width: 25%;
+    height: 100%;
+    margin-right: 10%;
+  }
+  .social {
+    width: 3.5rem;
+    margin: 2%;
+    height: 3.5rem;
+  }
+  span {
+    font-size: 100%;
+  }
+  .quizPic {
+    margin: 5%;
+    width: 35%;
+    height: 70%;
+  }
+
+  .quiz {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .surveyText {
+    margin: 1%;
+  }
+}
+@media (min-width: 1080px) {
+  p {
+    font-size: xx-large;
+  }
+  .sidebar h1 {
+    text-align: center;
+  }
+  .sidebar {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50vw;
+  }
+
+  img {
+    width: 25%;
+    height: 100%;
+    margin-right: 10%;
+  }
+  .quiz {
+    font-size: 140%;
+  }
+  main > p {
+    font-size: 250%;
+  }
+
+  .quizPic {
+    margin: 8%;
+    height: 33%;
+  }
+  ul {
+    margin-left: 10%;
+  }
+  .side1 {
+    margin-top: 5%;
+  }
+}

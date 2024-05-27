@@ -11,7 +11,7 @@ const Main = () => {
         web applications. <br />
         Feel free to contact me if you're looking to work with a{" "}
         <span>passionate</span> and
-        <span> dynamic</span> Professional.
+        <span> dynamic</span> professional.
         <br /> <br />
         If you're not looking to hire me, don't leave just yet! Keep looking
         around, you might find some secrets hidden somewhere.... <br />

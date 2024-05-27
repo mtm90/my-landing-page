@@ -30,7 +30,7 @@ const MainHireMe = () => {
           data science
         </span> field: <br /> i believe learning to collect, analyze and
         manipulate data nowadays is a very valuable skill to learn. <br />
-        Please get in contact with me if you need to build a nice website!{" "}
+        Please contact me if you need to build a nice website!
         <br /> <br />
         <form onSubmit={handleSubmit}>
           <div>

@@ -5,7 +5,7 @@ const MainAbout = () => {
     <main className="main">
       <p>
         My name is Mattia Totonchi Moghaddam. <br />
-        I'm an Italian/Iranian Tech enthusiast and i just recently got involved
+        I'm an italian/iranian Tech enthusiast and i just recently got involved
         in this field of work. I have always been interested in new technologies
         (<span>blockchain</span> and <span>AI</span> to name a few) and since i
         couldn't find a job in my field of study (i have a Bachelors Degree in{" "}

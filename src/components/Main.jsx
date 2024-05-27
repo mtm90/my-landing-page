@@ -12,7 +12,7 @@ const Main = () => {
         Feel free to contact me if you're looking to work with a{" "}
         <span>Passionate</span> and
         <span> dynamic</span> Professional{" "}
-        <a href="https://my-landing-page-git-main-mtm-90s-projects.vercel.app/hire-me">(Hire me)</a> <br /> <br />
+        <a href="https://my-landing-page-kappa.vercel.app/hire-me">(Hire me)</a> <br /> <br />
         If you're not looking to hire me, don't leave just yet! Keep looking
         around, you might find some secrets hidden somewhere.... <br />
         Or maybe not, there's only one way to find out i guess. <br /> <br />

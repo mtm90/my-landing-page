@@ -10,12 +10,12 @@ const Main = () => {
         <span> high-performance </span>
         web applications. <br />
         Feel free to contact me if you're looking to work with a{" "}
-        <span>Passionate</span> and
+        <span>passionate</span> and
         <span> dynamic</span> Professional.
         <br /> <br />
         If you're not looking to hire me, don't leave just yet! Keep looking
         around, you might find some secrets hidden somewhere.... <br />
-        Or maybe not, there's only one way to find out i guess. <br /> <br />
+        Or maybe not, there's only one way to find out I guess. <br /> <br />
         While my primary focus is on <span>React </span>framework, my journey in
         web development extends far beyond. Take your time to navigate through
         my work and witness the evolution of my craft.

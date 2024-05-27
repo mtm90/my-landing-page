@@ -9,8 +9,7 @@ const Sidebar = () => {
           <div className="quiz">
             <h1>My Quiz!</h1>
             <p className="surveyText">
-              Could you please take my quiz? i must learn how to collect and
-              analyze data!
+              Could you please take my quiz? It will help me enhance my skills in data collection and analysis.
             </p>
           </div>
           <p className="survey">

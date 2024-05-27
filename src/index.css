@@ -25,10 +25,11 @@ footer {
   border: 5px solid black;
   display: flex;
   justify-content: space-between;
+  
 }
 .main-content {
   display: flex;
-  flex: 1;
+
 }
 
 .sidebar {
@@ -55,14 +56,11 @@ main > h1 {
 
 
 .quizPic {
-  width: 75%;
+  width: 200px;
+  height: 200px;
   margin-bottom: 10%;
 }
-.profilePic {
-  width: 75%;
-  height: 40%;
-  margin: 10%;
-}
+
 
 .main {
   padding: 2rem;
@@ -144,15 +142,15 @@ h3 {
   }
   .main-content {
     flex-direction: column;
+    justify-content: space-between;
   }
-
+ 
   p {
     font-size: medium;
   }
   .sidebar {
     width: inherit;
     padding: 0;
-    height: 27vh;
     flex-direction: row;
     justify-content: space-around;
     align-self: flex-start;

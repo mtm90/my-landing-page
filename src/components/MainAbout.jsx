@@ -1,8 +1,12 @@
 import React from "react";
+import { useColors } from "./ColorContext";
+
 
 const MainAbout = () => {
+  const { colors } = useColors();
+
   return (
-    <main className="main">
+    <main className="main" style={{ backgroundColor: colors.main }}>
       <p>
         My name is Mattia Totonchi Moghaddam. <br />
         I'm an italian/iranian Tech enthusiast and i just recently got involved

@@ -3,17 +3,21 @@
   font-family: monospace;
 
 }
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+span {
+  color: #ffffff;
+}
 header {
   background-color: #9D96B8;
   margin: 1%;
-  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
 }
 
 footer {
   background-color: #9D96B8;
   margin: 1%;
-  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
 
 
 }
@@ -21,7 +25,6 @@ footer {
 .sidebar {
   background-color: #9A7197;
   margin: 1%;
-  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
 
 
 }
@@ -29,7 +32,18 @@ footer {
 .main {
   background-color: #886176;
   margin: 1%;
-  box-shadow: 2px 2px #7C5869, -2px -2px #7C5869;
 
 
+}
+.colors {
+  border: 5px solid black;
+  margin: 1%;
+  padding: 10px;
+  font-size: xx-large;
+  cursor: pointer ;
+}
+@media (max-width: 480px) {
+  .colors {
+    font-size: x-large;
+  }
 }

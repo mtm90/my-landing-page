@@ -1,9 +1,13 @@
 import React from "react";
+import { useColors } from "./ColorContext";
+
 
 const Sidebar = () => {
+  const { colors } = useColors();
+
   return (
     <>
-      <aside className="sidebar">
+      <aside className="sidebar" style={{ backgroundColor: colors.sidebar }}>
         <img className="quizPic" src="/assets/quiz.png" alt="quizPic" />
         <div className="side1">
           <div className="quiz">
@@ -12,8 +16,8 @@ const Sidebar = () => {
               Could you please take my quiz? It will help me enhance my skills in data collection and analysis.
             </p>
           </div>
-          <p className="survey">
-            <a href="https://mtm90.github.io/quiz/">Take the quiz</a>
+          <p style={{ backgroundColor: colors.colors }} className="survey">
+            <a  href="https://mtm90.github.io/quiz/">Take the quiz</a>
           </p>
         </div>
       </aside>

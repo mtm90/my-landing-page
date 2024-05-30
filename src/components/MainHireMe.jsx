@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useColors } from "./ColorContext";
+
 
 const MainHireMe = () => {
   const [email, setEmail] = useState("");
@@ -17,9 +19,11 @@ const MainHireMe = () => {
       alert("An error occurred while sending the message.");
     }
   };
+  const { colors } = useColors();
+
 
   return (
-    <main className="main">
+    <main className="main" style={{ backgroundColor: colors.main }}>
       <p>
         I'm currently unemployed and <span>aggressively</span> looking for work.{" "}
         <br />
@@ -53,7 +57,7 @@ const MainHireMe = () => {
               required
             ></textarea>
           </div>
-          <button className="btn" type="submit">
+          <button style={{ backgroundColor: colors.colors }} className="btn" type="submit">
             Submit
           </button>
         </form>

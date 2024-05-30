@@ -1,8 +1,12 @@
 import React from "react";
+import { useColors } from "./ColorContext";
+
 
 const Footer = () => {
+  const { colors } = useColors();
+
   return (
-    <footer>
+    <footer style={{ backgroundColor: colors.footer }}>
       <div className="madeWith">
         <h3>Made with: React</h3>
       </div>

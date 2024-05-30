@@ -1,8 +1,4 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #afd2e9;
-}
+
 
 .app-container {
   display: flex;
@@ -95,9 +91,7 @@ main > h1 {
   flex-direction: column;
   justify-content: center;
 }
-span {
-  color: #efa2c6;
-}
+
 .survey {
   border: 3px solid black;
   display: flex;
@@ -128,10 +122,7 @@ h3 {
   font-size: 70%;
   background-color: #9D96B8;
 }
-.btn:hover {
-  background-color: #9d96b8c0;
 
-}
 .txtarea {
   margin-top: 1%;
 }

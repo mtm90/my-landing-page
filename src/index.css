@@ -228,11 +228,7 @@ h3 {
     margin-left: 2%;
     margin-right: 2%;
   }
-  .surveyText {
-    margin-top: 1%;
-    margin-bottom: 1%;
-
-  }
+ 
 }
 @media (min-width: 1080px) {
   p {

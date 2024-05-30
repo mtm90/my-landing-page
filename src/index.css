@@ -193,7 +193,6 @@ h3 {
   .sidebar {
     width: inherit;
     padding: 0;
-    height: 35vh;
     flex-direction: row;
     justify-content: space-around;
   }
@@ -220,6 +219,7 @@ h3 {
     width: 35%;
     height: 70%;
   }
+ 
 
   .quiz {
     margin-left: 2%;

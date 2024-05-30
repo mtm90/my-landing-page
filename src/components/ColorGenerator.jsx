@@ -7,7 +7,7 @@ const ColorGenerator = () => {
 
   return (
     <button className="colors" onClick={regenerateColors} style={{ backgroundColor: colors.colors }}>
-      Don't like the colors i picked? <br />Switch it up!
+      Don't like these colors? <br />Press this button!
     </button>
   );
 };

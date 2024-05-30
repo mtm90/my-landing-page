@@ -1,7 +1,6 @@
 * {
   color: black;
   font-family: monospace;
-
 }
 body {
   margin: 0;
@@ -11,36 +10,30 @@ span {
   color: #ffffff;
 }
 header {
-  background-color: #9D96B8;
+  background-color: #9d96b8;
   margin: 1%;
 }
 
 footer {
-  background-color: #9D96B8;
+  background-color: #9d96b8;
   margin: 1%;
-
-
 }
 
 .sidebar {
-  background-color: #9A7197;
+  background-color: #9a7197;
   margin: 1%;
-
-
 }
 
 .main {
   background-color: #886176;
   margin: 1%;
-
-
 }
 .colors {
   border: 5px solid black;
   margin: 1%;
   padding: 10px;
   font-size: xx-large;
-  cursor: pointer ;
+  cursor: pointer;
 }
 @media (max-width: 480px) {
   .colors {

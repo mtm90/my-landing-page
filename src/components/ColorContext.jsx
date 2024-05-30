@@ -6,8 +6,8 @@ const ColorContext = createContext();
 // Function to generate shades of a base color
 const generateShades = (baseColor) => {
   const [r, g, b] = hexToRgb(baseColor);
-  const colors = Array.from({ length: 5 }, (_, i) => {
-    const factor = 1 - i * 0.10;
+  const colors = Array.from({ length: 4 }, (_, i) => {
+    const factor = 1 - i * 0.09;
     return rgbToHex(
       Math.min(255, Math.floor(r * factor)),
       Math.min(255, Math.floor(g * factor)),
@@ -16,10 +16,10 @@ const generateShades = (baseColor) => {
   });
   return {
     header: colors[0],
-    footer: colors[1],
-    sidebar: colors[2],
-    main: colors[3],
-    colors: colors[4]
+    footer: colors[0],
+    sidebar: colors[1],
+    main: colors[2],
+    colors: colors[3]
   };
 };
 
@@ -35,7 +35,7 @@ const rgbToHex = (r, g, b) => {
 
 // Create a provider component
 export const ColorProvider = ({ children }) => {
-  const baseColor = '#01f9c6'; // Set your base color here
+  const baseColor = '#00a693'; // Set your base color here
   const [colors, setColors] = useState(generateShades(baseColor));
 
   const regenerateColors = () => {

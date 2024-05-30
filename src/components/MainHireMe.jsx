@@ -33,7 +33,7 @@ const MainHireMe = () => {
         I'm also acquiring knowledge in the <span>
           data science
         </span> field: <br /> i believe learning to collect, analyze and
-        manipulate data nowadays is a very valuable skill to learn. <br />
+        manipulate data is a very valuable skill to learn. <br />
         Please contact me if you wish to have a well-designed website!
         <br /> <br />
         <form onSubmit={handleSubmit}>

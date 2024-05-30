@@ -6,20 +6,21 @@ const ColorContext = createContext();
 // Function to generate shades of a base color
 const generateShades = (baseColor) => {
   const [r, g, b] = hexToRgb(baseColor);
-  const colors = Array.from({ length: 4 }, (_, i) => {
-    const factor = 1 - i * 0.09;
+  const colors = Array.from({ length: 5 }, (_, i) => {
+    const factor = i === 0 ? 0.05 : 1 - i * 0.15; // Make the first color extremely light
     return rgbToHex(
-      Math.min(255, Math.floor(r * factor)),
-      Math.min(255, Math.floor(g * factor)),
-      Math.min(255, Math.floor(b * factor))
+      Math.min(255, Math.floor(r / factor)),
+      Math.min(255, Math.floor(g / factor)),
+      Math.min(255, Math.floor(b / factor))
     );
   });
   return {
-    header: colors[0],
-    footer: colors[0],
-    sidebar: colors[1],
-    main: colors[2],
-    colors: colors[3]
+    body: colors[4],
+    header: colors[1],
+    footer: colors[1],
+    sidebar: colors[3],
+    main: colors[3],
+    colors: colors[2]
   };
 };
 

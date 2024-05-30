@@ -9,24 +9,13 @@ body {
 span {
   color: #ffffff;
 }
-header {
-  margin: 1%;
+header, footer, .sidebar, .main {
+  margin: 0.5%;
 }
 
-footer {
-  margin: 1%;
-}
-
-.sidebar {
-  margin: 1%;
-}
-
-.main {
-  margin: 1%;
-}
 .colors {
   border: 5px solid black;
-  margin: 1%;
+  margin: 0.5%;
   padding: 10px;
   font-size: xx-large;
   cursor: pointer;

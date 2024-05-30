@@ -121,7 +121,7 @@ h3 {
   margin-top: 1%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 593px) {
   * {
     font-size: large;
   }
@@ -173,7 +173,7 @@ h3 {
   }
 
 }
-@media (min-width: 481px) and (max-width: 1079px) {
+@media (min-width: 593px) and (max-width: 1079px) {
 
   p {
     font-size: xx-large;

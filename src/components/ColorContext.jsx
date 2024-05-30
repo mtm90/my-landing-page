@@ -36,7 +36,7 @@ const rgbToHex = (r, g, b) => {
 
 // Create a provider component
 export const ColorProvider = ({ children }) => {
-  const baseColor = '#00a693'; // Set your base color here
+  const baseColor = '#008080'; // Set your base color here
   const [colors, setColors] = useState(generateShades(baseColor));
 
   const regenerateColors = () => {

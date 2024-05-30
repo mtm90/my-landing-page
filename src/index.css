@@ -188,7 +188,9 @@ h3 {
   h1 {
     font-size: xx-large;
   }
- 
+  .side1 {
+    margin-top: 5%;
+  }
   .sidebar {
     width: inherit;
     padding: 0;
@@ -228,7 +230,9 @@ h3 {
     margin-left: 2%;
     margin-right: 2%;
   }
- 
+  .surveyText {
+    margin: 1%;
+  }
 }
 @media (min-width: 1080px) {
   p {

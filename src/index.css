@@ -169,7 +169,7 @@ h3 {
     margin-right: 2%;
   }
   .surveyText {
-    margin: 0% 1% 1%;
+    margin: 4% 0% 4%;
 
   }
 
@@ -226,7 +226,8 @@ h3 {
     margin-right: 2%;
   }
   .surveyText {
-    margin: 1%;
+    margin: 4% 0% 4%;
+
   }
 }
 @media (min-width: 1080px) {

@@ -1,30 +1,31 @@
 import React from "react";
 import { useColors } from "./ColorContext";
 
-
 const MainAbout = () => {
   const { colors } = useColors();
 
   return (
     <main className="main" style={{ backgroundColor: colors.main }}>
       <p>
-        My name is Mattia Totonchi Moghaddam. <br />
-        I'm an italian/iranian Tech enthusiast and i just recently got involved
-        in this field of work. I have always been interested in new technologies
-        (<span>blockchain</span> and <span>AI</span> to name a few) and since i
-        couldn't find a job in my field of study (i have a Bachelors Degree in{" "}
-        <span>Business Economics</span>) i was forced to make a complete career
-        switch. <br />I find this environment particularly exciting and that's
-        one of the reason i decided to acquire the skills to find a position as
-        a <span>front-end developer.</span> <br />
-        I'm currently refining my ability with <span>HTML</span>,{" "}
-        <span>CSS</span> and <span>Javascript</span> with a specialization in{" "}
-        <span>React</span>. <br />
-        I don't have any work experience in this field yet but i'm very eager to
-        start working and keep improving myself. In the last few weeks i have
-        been attending an online intensive course in which i've acquired all of
-        my skills. <br /> <br />
-        Here is my CV if you want more info about me. <br /> <br />
+        My name is Mattia Totonchi Moghaddam, i am an Italian-Iranian tech
+        enthusiast who recently transitioned into the tech industry. <br /> Although my
+        background is in <span>Business Economics</span>, with a Bachelor's Degree, my
+        passion for new technologies like <span>blockchain</span> and <span>AI</span> led me to explore a
+        career in tech. <br /><br />Due to the challenging job market in my field of study,
+        I decided to pivot and acquire the skills necessary to become a
+        front-end developer. <br />I am currently honing my expertise in <span>HTML</span>, <span>CSS</span>,
+        and <span>JavaScript</span>, with a focus on <span>React</span>. <br /><br />While I do not yet have
+        professional experience in this field, I am highly motivated to start my
+        career and continuously improve my skills. <br />Recently, I completed an
+        intensive online course where I gained practical knowledge and hands-on
+        experience.  <br /><br />I am particularly excited about this new career path because
+        it allows me to leverage my creativity, adaptability, and
+        problem-solving skills. I am known for my rapid thinking and ability to
+        manage my time effectively, ensuring I meet deadlines without
+        compromising quality. My accountability and active listening skills make
+        me a reliable and communicative team member, eager to contribute and
+        grow.  <br /><br />If you would like to know more about my background and
+        qualifications, please check my CV. <br /><br />
         <a href="https://mattiatotonchi1990curriculumvitae.my.canva.site/">
           My CV
         </a>

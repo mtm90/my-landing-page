@@ -10,12 +10,12 @@ span {
   color: #ffffff;
 }
 header, footer, .sidebar, .main {
-  margin: 0.5%;
+  margin: 0.7%;
 }
 
 .colors {
   border: 3px solid black;
-  margin: 0.5%;
+  margin: 0.7%;
   padding: 10px;
   font-size: xx-large;
   cursor: pointer;

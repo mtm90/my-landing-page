@@ -13,7 +13,7 @@ const MainAbout = () => {
         passion for new technologies like <span>blockchain</span> and <span>AI</span> led me to explore a
         career in tech. <br /><br />Due to the challenging job market in my field of study,
         I decided to pivot and acquire the skills necessary to become a
-        front-end developer. <br />I am currently honing my expertise in <span>HTML</span>, <span>CSS</span>
+        front-end developer. <br />I am currently honing my expertise in <span>HTML</span>, <span>CSS </span>
         and <span>JavaScript</span>, with a focus on <span>React</span>. <br /><br />While I do not yet have
         professional experience in this field, I am highly motivated to start my
         career and continuously improve my skills. <br />Recently, I completed an

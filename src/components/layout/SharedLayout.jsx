@@ -9,7 +9,7 @@ const LayoutWithStyle = () => {
       <style>{`
         body { background-color: ${colors.body}; }
         header, footer, .sidebar, .main, .colors {
-          box-shadow: 1px 1px 2px 0.5px, -1px -1px 2px 0.5px ${colors.header};
+          box-shadow: 1px 1px 1px 0.3px, -1px -1px 1px 0.3px ${colors.header};
         }
       `}</style>
       <Outlet />

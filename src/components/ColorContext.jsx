@@ -19,8 +19,8 @@ const generateShades = (baseColor) => {
     header: colors[1],
     footer: colors[1],
     sidebar: colors[3],
+    colors: colors[2],
     main: colors[3],
-    colors: colors[2]
   };
 };
 

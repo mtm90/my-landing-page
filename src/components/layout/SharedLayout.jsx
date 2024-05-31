@@ -6,7 +6,12 @@ const LayoutWithStyle = () => {
 
   return (
     <>
-      <style>{`body { background-color: ${colors.body}; }`}</style>
+      <style>{`
+        body { background-color: ${colors.body}; }
+        header, footer, .sidebar, .main, .colors {
+          box-shadow: 1px 1px 4px 1px, -1px -1px 4px 1px ${colors.header};
+        }
+      `}</style>
       <Outlet />
     </>
   );

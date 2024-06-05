@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useColors } from "./ColorContext";
 
-
 const MainHireMe = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -20,7 +19,6 @@ const MainHireMe = () => {
     }
   };
   const { colors } = useColors();
-
 
   return (
     <main className="main" style={{ backgroundColor: colors.main }}>
@@ -57,22 +55,22 @@ const MainHireMe = () => {
               required
             ></textarea>
           </div>
-          <button style={{ backgroundColor: colors.colors }} className="btn" type="submit">
+          <button
+            style={{ backgroundColor: colors.colors }}
+            className="btn"
+            type="submit"
+          >
             Submit
           </button>
-        </form>
-        <br />I have always been interested in <span>video games</span> since i
-        can remember. <br />
-        Now that i'm getting involved in this line of work, i can finally
-        unleash my <span>creativity</span> by building games, my lifetime
-        passion. <br />
-        Here are some of the projects i developed so far (some of them with the
-        help of Artifical Intelligence). <br />
-        <br />
-        <a href="https://mtm90.github.io/memory_game/">Memory game</a> <br />
-        <a href="https://mtm90.github.io/snake/">Snake</a> <br />
-        <a href="https://mtm90.github.io/zodiac/">Zodiac Sign</a>
-      </p>
+          </form>
+<br />I've been hooked on <span>video games</span> for as long as I can remember. <br />
+Now, as I dive into game development as a hobby, I'm excited to channel my <span>creativity</span> into building games, my lifelong passion. <br />
+Take a peek at one of my projects below, created with a little help from Artificial Intelligence. And hey, I'm constantly working to improve my skills, so stay tuned for more games in the future! <br />
+<br />
+<a href="https://mtm90.github.io/memory_game/">Memory game</a> <br />
+</p>
+
+
     </main>
   );
 };

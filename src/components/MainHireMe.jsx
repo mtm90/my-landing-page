@@ -62,15 +62,21 @@ const MainHireMe = () => {
           >
             Submit
           </button>
-          </form>
-<br />I've been hooked on <span>video games</span> for as long as I can remember. <br />
-Now, as I dive into game development as a hobby, I'm excited to channel my <span>creativity</span> into building games, my lifelong passion. <br />
-Take a peek at one of my projects below, created with a little help from Artificial Intelligence. And hey, I'm constantly working to improve my skills, so stay tuned for more games in the future! <br />
-<br />
-<a href="https://mtm90.github.io/memory_game/">Memory game</a> <br />
-</p>
-
-
+        </form>
+        <br />
+        I've been hooked on <span>video games</span> for as long as I can
+        remember. <br />
+        Now, as I dive into game development as a hobby, I'm excited to channel
+        my <span>creativity</span> into building games, my lifelong passion.{" "}
+        <br />
+        Take a peek at one of my projects below, created with a little help from
+        Artificial Intelligence. And hey, I'm constantly working to improve my
+        skills, so stay tuned for more games in the future! <br />
+        <br />
+        <a href="https://mtm90.github.io/memory_game/">Memory game</a> <br /> <br />
+        Also check out my latest project, a full-stack crowdfunding App called "Blooming Together" that i created as an exercise. <br /><br />
+        <a href="https://crowdfunding-roan.vercel.app/">Blooming Together</a>
+      </p>
     </main>
   );
 };

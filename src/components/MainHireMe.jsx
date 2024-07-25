@@ -74,8 +74,6 @@ const MainHireMe = () => {
         skills, so stay tuned for more games in the future! <br />
         <br />
         <a href="https://mtm90.github.io/memory_game/">Memory game</a> <br /> <br />
-        Also check out my latest project, a full-stack crowdfunding App called "Blooming Together" that i created as an exercise. <br /><br />
-        <a href="https://crowdfunding-roan.vercel.app/">Blooming Together</a>
       </p>
     </main>
   );
